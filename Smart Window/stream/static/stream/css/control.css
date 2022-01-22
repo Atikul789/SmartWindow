@@ -1,0 +1,332 @@
+img{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+
+
+.btn-info-pos{
+	position: absolute;
+	right: 14%;
+	top: 65%;
+}
+.btn-info-pos-size{
+	width: 25%;
+	transition-delay: 0.5s;
+}
+
+.btn-curr-pos{
+	position: absolute;
+	right: 14%;
+	top: 80%;
+}
+
+.info-cards{
+	position: absolute;
+	right: 20%;
+	top: 20%;
+	padding: initial;
+}
+
+.info-next p{
+	margin-bottom: 0;
+}
+
+.info-next {
+	overflow-y: auto;
+}
+
+.card-height{
+	height: 250px;
+	overflow-y: auto;
+	min-width: 98px;
+}
+.card-padding{
+	padding: 0.5rem;
+}
+
+.info-queue{
+	position: absolute;
+	right: 12%;
+	top: 20%;
+	max-width: 100px;
+    max-height: 450px;
+}
+
+.info-hide{
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+.info-show{
+	visibility: visible;
+	opacity: 1;
+	transition-delay: 0s;
+}
+.card{
+	background: black;
+	opacity: 50%;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.card-header{
+	color: white;
+	padding: 0;
+}
+.card-header p{
+	margin-bottom: 0;
+}
+.btn {
+	border: none;
+	color: white;
+}
+
+/*Widget*/
+
+#widgets{
+	position: absolute;
+	top: 2%;
+	max-height: 85px;
+	width: 87%;
+	margin-left: unset;
+}
+
+/*Speed*/
+
+#cur-speed > .card {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	position: relative;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-cherry {
+	background: linear-gradient(to right, #493240, #f09) !important;
+	color: #fff;
+}
+
+.l-bg-blue-dark {
+	background: linear-gradient(to right, #373b44, #4286f4) !important;
+	color: #fff;
+}
+
+.l-bg-green-dark {
+	background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+	color: #fff;
+}
+
+.l-bg-orange-dark {
+	background: linear-gradient(to right, #a86008, #ffba56) !important;
+	color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+	font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+	text-align: center;
+	line-height: 50px;
+	margin-left: 15px;
+	color: #000;
+	position: absolute;
+	right: -5px;
+	top: 20px;
+	opacity: 0.1;
+}
+
+.l-bg-cyan {
+	background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+	color: #fff;
+}
+
+.l-bg-green {
+	background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+	color: #fff;
+}
+
+.l-bg-orange {
+	background: linear-gradient(to right, #f9900e, #ffba56) !important;
+	color: #fff;
+}
+
+.l-bg-cyan {
+	background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+	color: #fff;
+}
+
+.card-fit{
+	max-width: 95%;
+	margin-bottom: 0px;
+	opacity: 40%;
+}
+
+#cur-speed > h5 h6{
+	font-weight: 600;
+	line-height: 0.2;
+}
+
+.card-font-space{
+	padding: 0.7rem!important;
+}
+
+/*end - Speed*/
+
+/*Weater*/
+
+#cur-weather > .card {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	position: relative;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+
+/*end - weather*/
+
+/*inside temp*/
+#cur-inside-temperature > .card {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	position: relative;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+/*end- inside temp*/
+
+/*city*/
+
+#cur-city > .card {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	position: relative;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+/*end- city*/
+
+
+/*end - Widget*/
+
+
+#carousel > .card{
+	border-radius: 20px;
+	height: 500px;
+	width: 90%;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border: none;
+}
+
+.carousel-item{
+	z-index: 2;
+	/*padding: 10px 25px;*/
+}
+.carousel-item > .row{
+	margin: 0;
+}
+
+.bgTitle{
+	background-color: #316e99;
+	position: absolute;
+	z-index: 1;
+}
+
+.title h3{
+	text-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+}
+
+.btn-next{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	width: 100px;
+	border-radius: 20px;
+	background-color: #316e99;
+	color: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	z-index: 3;
+}
+
+
+
+/*-- vertical bootstrap slider --*/
+.carousel .carousel-item-next.carousel-item-left,
+.carousel .carousel-item-prev.carousel-item-right {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel .carousel-item-next,
+.carousel .active.carousel-item-right {
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+}
+
+.carousel .carousel-item-prev,
+.carousel .active.carousel-item-left {
+	-webkit-transform: translate3d(0,-100%, 0);
+	transform: translate3d(0,-100%, 0);
+}
+
+/*-- vertical carousel indicators --*/
+.carousel-indicators{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 40px;
+	right: 0px;
+	left: auto;
+	width :auto;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.carousel-indicators li{
+	display: block;
+	margin-bottom: 0px;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	background: #BDBDBD;
+	transition: all ease 0.6s;
+}
+.carousel-indicators li.active{
+	background: #000;
+	width: 20px;
+	border-radius: 25px;
+}
+/* Media Querys */
+/* Small devices (landscape phones, 576px and up)*/ 
+@media (min-width: 576px) {
+	.bgTitle{
+		height: 30%;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		width: 100%;
+		top: 0;
+	}
+	.content{
+		padding: 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.bgTitle{
+		height: 100%;
+		width: 50%;
+		border-bottom-left-radius: 15px;
+		border-top-right-radius: 0px;
+	}
+}
